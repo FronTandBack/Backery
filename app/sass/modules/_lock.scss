@@ -1,0 +1,59 @@
+.lock {
+	background: #ffffff;
+}
+
+.lock__wrapper {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	max-width: 100%;
+	width: 1170px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+
+
+.lock__circle {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: -36px;
+	width: 75px;
+	height: 75px;
+	background: #ffffff;
+	border-radius: 100%;
+	z-index: 100;
+}
+
+.lock__border-circle {
+	position: absolute;
+	left: -20%;
+    top: -20%;
+    z-index: 10;
+}
+
+.lock__bread {
+	position: absolute;
+	left: 18%;
+    top: 21%;
+	img {
+		max-width: 100%;
+		width: 50px;
+	}
+	z-index: 100;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.rotate {
+  animation: 5s linear  rotate;
+  transform-origin: 50% 50%;
+}

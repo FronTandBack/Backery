@@ -1,0 +1,18 @@
+
+@mixin positionElement($x, $y) {
+	content: '~';
+	position: absolute;
+	left: $x;
+	top:  $y;
+	color: white;
+	font-family: 'Alegreya', serif;
+}
+
+@mixin wrapper() {
+	display: flex;
+	max-width: 100%;
+	width: 1170px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
