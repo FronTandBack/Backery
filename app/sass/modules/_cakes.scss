@@ -98,7 +98,7 @@
     background-color: #fff;
     width: 164px;
     top: -27px;
-    left: 128px;
+    left: 148px;
     height: auto;
     text-align: center;
 	img {
@@ -145,6 +145,7 @@
 	position: relative;
 }
 .cakes__gallery {
+	position: relative;
 	display: flex;
 	flex-flow: row wrap;
 	.cakes__item {
@@ -153,7 +154,7 @@
 		position: relative;
 		width: 295px;
 		height: 250px;
-		
+
 		&:nth-of-type(2n) {
 			margin-left: 0;
 			margin-right: 10px;
@@ -192,10 +193,7 @@
 	transform: translate(-50%, -50%);
 	width: 247px;
 	height: 247px;
-	// z-index: 200;
-	// background: url('../img/circle.svg') no-repeat;
-	// background-size: 247px 247px;
-	// 
+
 	span {
 		width: 100px;
 		z-index: 100;
@@ -207,6 +205,6 @@
 	img {
 		position: absolute;
 		opacity: 0.99;
-		// z-index: 300;
+
 	}
 }

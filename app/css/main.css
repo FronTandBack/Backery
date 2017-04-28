@@ -792,7 +792,7 @@ body {
   background-color: #fff;
   width: 164px;
   top: -27px;
-  left: 128px;
+  left: 148px;
   height: auto;
   text-align: center;
 }
@@ -836,6 +836,7 @@ body {
 }
 
 .cakes__gallery {
+  position: relative;
   display: flex;
   flex-flow: row wrap;
 }
@@ -891,6 +892,14 @@ body {
 .cakes__circum img {
   position: absolute;
   opacity: 0.99;
+}
+
+.abouts {
+  display: block;
+  min-height: 760px;
+  background: url("../img/breakfast.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=main.css.map */
